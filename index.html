@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kamil's Portfolio Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="topContainer fixed-top">
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-transparent bg-gradient">
+      <button 
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      class="navbar-toggler custom-toggler"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto" >
+          <li class="nav-item active px-5">
+           <a href="#" class="nav-link active text-white">
+            HOME
+           </a>
+          </li>
+          <li class="nav-item active px-5">
+           <a href="#aboutMe" class="nav-link text-white">
+            ABOUT ME
+           </a>
+          </li>
+          <li class="nav-item active px-5">
+           <a href="#projects" class="nav-link text-white">
+            PROJECTS
+           </a>
+          </li>
+          <li class="nav-item active px-5">
+            <a href="#skills" class="nav-link text-white">
+             SKILLS
+            </a>
+           </li>
+           <li class="nav-item active px-5">
+            <a href="#more" class="nav-link text-white">
+             MORE
+            </a>
+           </li>
+        </ul>
+      </div>
+      <div class="contacts ">
+          <a href="https://github.com/MechanicalBuns" title="github" style="color: #fff;" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/kamil-trzepieci%C5%84ski-458098294/" title="linkedin" target="_blank" style="color: #fff;"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </nav>
+    
+  </div>
+  <hr class="hr hr-blurry topl" />
+  <div class="container">
+   
+    
+    <div class="center">
+      <div class="centerText">
+        <div class="welcome">HELLO!</div><br>
+        <span class="name">I'm Kamil Trzepiecińśki</span><br>
+      </div> 
+      <hr class="hr hr-blurry aboutl" id="aboutMe"/>
+      <div class="frame">
+       <img class="me" src="css/images/profile_pic.jpg" alt="Zdjęcie profilowe">
+      </div>
+      <div class="AboutMe" >
+        ABOUT ME
+      </div>
+      <div class="InfoMe">
+        I am a 3rd year student of Computer Science with a specialization in Computer Graphics and Game Design at the University of Lodz.
+        I chose this major because I like to create and design something from scratch, from the programming layer to the graphic layer. I like when the results of my work are visible to the naked eye.
+      </div>
+      <hr class="hr hr-blurry projectsl" id="projects"/>
+      <div class="Projects">
+        <div class="ProjMainTitle" id="animProjects">PROJECTS</div>
+        <div class="KotlynTitle">KOTLYN THE SLAYER</div>
+        <div class="KotlynWrap row">
+        <div class="aboutKotlyn col">
+          A project for a two-dimensional adventure game based on pixel art graphics. Written in Java based on default libraries.
+          Currently the game has no ending due to a change in production development strategy.
+          Further development planned.
+
+          <div class="co-authorsL">CO-AUTHORS:<br>
+            <p><a class="link-opacity-25-hover" href="https://github.com/stanley0ss">stanley0ss</a></p>
+            <p><a class="link-opacity-25-hover" href="https://github.com/v3yroz">v3yroz</a></p>
+          </div>
+        </div>
+        <div class="Kslides col-lg-6">
+          <div id="carouselKotlyn" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselKotlyn" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselKotlyn" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselKotlyn" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="css/images/kotlyn1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="css/images/kotlyn2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="css/images/kotlyn3.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" title="kotlynPrev" href="#carouselKotlyn" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              
+            </a>
+            <a class="carousel-control-next" title="kotlynNext" href="#carouselKotlyn" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+            </a>
+          </div>
+        </div>
+        </div>
+        <div class="darkDeafTitle">DARK EVERYWHERE<br> DEAF EVERYWHERE</div>
+       <div class="row">
+       <div class="Dslides col-lg-6">
+        <div id="carouselDarkDeaf" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselDarkDeaf" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselDarkDeaf" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselDarkDeaf" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="css/images/dd1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="css/images/dd2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="css/images/dd3.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" title="dddPrev" href="#carouselDarkDeaf" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            
+          </a>
+          <a class="carousel-control-next" title="dddNext" href="#carouselDarkDeaf" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+          </a>
+        </div>
+       </div>
+       <div class="aboutDarkDeaf col-lg-6">
+        Three-dimensional adventure game set in a horror atmosphere, in which you overcome the map by solving puzzles and fighting enemies.
+        The project developed on the Unity engine. Further work on the project is planned. 
+
+        <div class="co-authorsR">CO-AUTHORS:<br>
+          <p><a class="link-opacity-25-hover" href="https://github.com/v3yroz">v3yroz</a></p>
+        </div>
+       </div>
+       </div>
+       </div>
+       <hr class="hr hr-blurry morel" id="more"/>
+       <div class="More">
+        <div class="MoreMainTitle animate__animated animate__heartBeat" id="animMore">MORE</div>
+        <div class="modelsTitle">3D MODELS</div>
+        <div class="row">
+         <div class="aboutModels col-lg-6">
+          3D models of a car, a cuckoo clock and a house made entirely in Blender. The textures used in the models are from BlenderKit.
+          </div>
+          <div class="Mslides col-lg-6">
+            <div id="carouselModels" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselModels" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselModels" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselModels" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselModels" data-bs-slide-to="3"></li>
+                <li data-bs-target="#carouselModels" data-bs-slide-to="4"></li>
+                <li data-bs-target="#carouselModels" data-bs-slide-to="5"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="css/images/fiat1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="css/images/fiat2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="css/images/fiat4.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="css/images/clck.png" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="css/images/clck2.png" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="css/images/ht.png" alt="Sixth slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" title="modelsPrev" href="#carouselModels" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                
+              </a>
+              <a class="carousel-control-next" title="modelsNext" href="#carouselModels" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+              </a>
+            </div>
+           </div>
+         </div>
+         <div class="animationsTitle">ANIMATIONS</div>
+         <div class="row">
+          <div class="Aslides col-lg-6">
+            <div id="carouselAnimations" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselAnimations" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselAnimations" data-bs-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <video class="img-fluid" autoplay loop muted src="css/videos/clckv.mp4" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <video class="img-fluid" autoplay loop muted src="css/videos/htv.mp4" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" title="animprev" href="#carouselAnimations" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                
+              </a>
+              <a class="carousel-control-next" title="animNext" href="#carouselAnimations" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+              </a>
+            </div>
+           </div>
+           <div class="aboutAnimations col-lg-6">
+            Simple animations based on created models also made in Blender.
+           </div>
+         </div> 
+         <div class="soundsTitle">DŹWIĘKI</div>
+         <div class="row">
+          <div class="aboutSounds ">
+            One of my passions is music which results in the sounds I create and music themes for games.
+            I am currently working on MPC Beats and have a little familiarity with Audacity. In the near future I plan to switch to FL Studio.
+           </div>
+         </div>
+      </div>
+      <hr class="hr hr-blurry morel" id="skills"/>
+      <div class="skills">
+        <div class="SkillsMainTitle animate__animated animate__heartBeat" id="animSkills">SKILLS</div>
+        <div class="featuresTitle">CECHY</div>
+        <div class="features">
+          I always try to approach each topic with ambition. I carefully analyze the tasks set before me and try to find the most optimal solutions.
+        </div>
+        <div class="programingTitle ">PROGRAMMING</div>
+        <ul class="list-group list-group-flush lgm">
+          <li class="list-group-item  d-flex justify-content-between align-items-center">
+            C++
+            <span class="badge badge-primary badge-pill">BASIC</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            C#
+            <span class="badge badge-primary badge-pill">GOOD KNOWLEDGE (FURTHER LEARNING)</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Java
+            <span class="badge badge-primary badge-pill">GOOD KNOWLEDGE (FURTHER LEARNING)</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Javascript (Three.js, React.js, Bootstrap)
+            <span class="badge badge-primary badge-pill">GOOD KNOWLEDGE (FURTHER LEARNING)</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            SQL
+            <span class="badge badge-primary badge-pill">BASIC</span>
+          </li>
+        </ul>
+        <div class="htmlcss">KNOWLEDGE HTML AND CSS</div>
+        <div class="programsTitle">NARZĘDZIA</div>
+        <div class="programs">
+          I most often use Ivsual Studio Code. Over the course of my programming adventure, I have also been exposed to IntelliJ Idea, Visual Studio and Code::Blocks.<br>
+          I very often use Unity, Blender and more occasionally Adobe Photoshop.<br>
+          I have also had exposure to Adobe After Effects, Adobe Illustrator and AutoCAD.
+        </div>
+      </div>
+      
+      </div>  
+    </div>
+    </div>
+  </div>
+  <footer id="sticky-footer" class="flex-shrink-0  py-4 text-white-50 fixed-bottom d-none">
+    <div class="container text-center justify-content-center text-white">
+      <small class="footerText">Created By Kamil Trzepieciński &copy; 2024 All Rights Reserved</small>
+    </div>
+  </footer>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
