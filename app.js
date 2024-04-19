@@ -92,7 +92,7 @@ $(document).ready(function(){
         var scrollHeight = $(document).height();
         var windowWidth = $(window).width();
         var scrollPosition = $(window).height() + $(window).scrollTop();
-        if (windowWidth > 374) {
+        if (windowWidth > 398) {
         if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
           $('#sticky-footer').removeClass('d-none').addClass('animate__animated animate__slideInUp');
         } else {
