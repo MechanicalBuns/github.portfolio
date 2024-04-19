@@ -93,7 +93,7 @@ $(document).ready(function(){
         var windowWidth = $(window).width();
         var scrollPosition = $(window).height() + $(window).scrollTop();
         if (windowWidth > 398) {
-        if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
+        if ((scrollHeight - scrollPosition) / scrollHeight <= 0.1) {
           $('#sticky-footer').removeClass('d-none').addClass('animate__animated animate__slideInUp');
         } else {
           $('#sticky-footer').removeClass('animate__slideInUp').addClass('d-none');
