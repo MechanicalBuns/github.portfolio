@@ -1,350 +1,376 @@
 body {
-	margin:0px;
-	font-size:1rem;
-	font-weight:400;
-	line-height:1.5;
-	background-color: #EBB209;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-size:100% 100%;
-	
+  margin: 0px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #ebb209;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .navbar-nav {
-	font-size: 1.8rem;
-	font-family: "Big Shoulders Text", sans-serif
+  font-size: 1.8rem;
+  font-family: "Big Shoulders Text", sans-serif;
 }
 
-.topl{
-	margin-top: 80px;
+.topl {
+  margin-top: 80px;
 }
 
-.hr{
-	color: #fff !important;
+.hr {
+  color: #fff !important;
 }
 
-
-.container{
-	text-align:center;
-	height:100%;
-	display: flex;
+.container {
+  text-align: center;
+  height: 100%;
+  display: flex;
 }
-
 
 .center {
-	background-color:transparent;
-	height: 30vh;
-	overflow: visible;
+  background-color: transparent;
+  height: 30vh;
+  overflow: visible;
 }
 
-.centerText{
-	text-align:center;
-	margin-top: 3.5em;
-	color:white;
-	font-size: 5rem;
-	font-weight: 900;
-	font-family: "Big Shoulders Text", sans-serif
-	
+.centerText {
+  text-align: center;
+  margin-top: 3.5em;
+  color: white;
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: "Big Shoulders Text", sans-serif;
 }
 
 .centerText .welcome {
-    color: #BAA714;
+  color: #baa714;
 }
 
 .centerText .name {
-    font-weight: normal; 
+  font-weight: normal;
 }
 
-.aboutl{
-	margin-top: 40%;
+.aboutl {
+  margin-top: 40%;
 }
 
 .frame {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .me {
-	clip-path: circle(39%);
-	max-width: 20%;  
-    height: auto;  
-	float: center;
-	margin-top:5%;
-	position:relative;
-	overflow: hidden;
+  clip-path: circle(39%);
+  max-width: 20%;
+  height: auto;
+  float: center;
+  margin-top: 5%;
+  position: relative;
+  overflow: hidden;
 }
 
-
-.AboutMe{
-	color:white;
-	font-size:50px;
-	font-family: "Big Shoulders Text", sans-serif;
-	margin-top:2%;
-	padding: 0; 
-	
+.AboutMe {
+  color: white;
+  font-size: 50px;
+  font-family: "Big Shoulders Text", sans-serif;
+  margin-top: 2%;
+  padding: 0;
 }
 
-.InfoMe{
-	color:white;
-	font-size:1.5rem;
-	text-align: justify;
-	width:50%;
-	margin-left:25%;
-	margin-right:25%;
-	font-weight: 500;
+.InfoMe {
+  color: white;
+  font-size: 1.5rem;
+  text-align: justify;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: 500;
 }
 
-
-.projectsl{
-	margin-top: 40%;
+.projectsl {
+  margin-top: 40%;
 }
 
-
-.ProjMainTitle, .MoreMainTitle, .SkillsMainTitle{
-	color:white;
-	font-size:4rem;
-	font-family: "Big Shoulders Text", sans-serif;
-	margin-top:10%;
+.ProjMainTitle,
+.MoreMainTitle,
+.SkillsMainTitle {
+  color: white;
+  font-size: 4rem;
+  font-family: "Big Shoulders Text", sans-serif;
+  margin-top: 10%;
 }
 
-.KotlynTitle, .soundsTitle, .featuresTitle, .programingTitle, .programsTitle, .modelsTitle{
-	color:#BAA714;
-	font-size:4rem;
-	font-family: 'Abril Fatface', sans-serif;
-	margin-top:20%;
-	text-align: left;
-	font-family: "Big Shoulders Text", sans-serif;
-	font-weight: 900;
+.KotlynTitle,
+.soundsTitle,
+.featuresTitle,
+.programingTitle,
+.programsTitle,
+.modelsTitle,
+.whereTitle {
+  color: #baa714;
+  font-size: 4rem;
+  font-family: "Abril Fatface", sans-serif;
+  margin-top: 20%;
+  text-align: left;
+  font-family: "Big Shoulders Text", sans-serif;
+  font-weight: 900;
 }
 
-
-
-.aboutKotlyn, .aboutSounds, .aboutModels{
-	margin-top: 10%;
-	font-size: 1.5rem;
-	color:white;
-	text-align: justify;
-	font-weight: 500;
-	justify-content: center;
-	
+.aboutKotlyn,
+.aboutWIG,
+.aboutSounds,
+.aboutModels {
+  margin-top: 10%;
+  font-size: 1.5rem;
+  color: white;
+  text-align: justify;
+  font-weight: 500;
+  justify-content: center;
 }
 
-
-.carousel-indicators li::marker{
-	font-size:0 !important;
+.carousel-indicators li::marker {
+  font-size: 0 !important;
 }
 
-.darkDeafTitle, .animationsTitle{
-	color:#BAA714;
-	font-size:4rem;
-	font-family: 'Abril Fatface', sans-serif;
-	margin-top:20%;
-	text-align: right;
-	font-family: "Big Shoulders Text", sans-serif;
-	font-weight: 900;
+.darkDeafTitle,
+.animationsTitle {
+  color: #baa714;
+  font-size: 4rem;
+  font-family: "Abril Fatface", sans-serif;
+  margin-top: 20%;
+  text-align: right;
+  font-family: "Big Shoulders Text", sans-serif;
+  font-weight: 900;
 }
 
-.aboutDarkDeaf, .aboutAnimations{
-	margin-top: 10%;
-	font-size: 1.5rem;
-	color:white;
-	text-align: justify;
-	justify-content: center;
-	font-weight: 500;
-	
+.aboutDarkDeaf,
+.aboutAnimations {
+  margin-top: 10%;
+  font-size: 1.5rem;
+  color: white;
+  text-align: justify;
+  justify-content: center;
+  font-weight: 500;
 }
 
-.morel{
-	margin-top: 30%;
-	
+.morel {
+  margin-top: 30%;
 }
 
-
-.features{
-	text-align: justify;
-	margin-top: 5%;
-	font-size: 1.5rem;
-	color:white;
-	font-weight: 500;
+.features {
+  text-align: justify;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
 }
 
-.lgm{
-	margin-top: 5%;
-	font-weight: 500;
+.lgm {
+  margin-top: 5%;
+  font-weight: 500;
 }
 
-.list-group li{
-	background-color: transparent !important;
-	color: #fff !important;
-	font-weight: 500;
+.list-group li {
+  background-color: transparent !important;
+  color: #fff !important;
+  font-weight: 500;
 }
 
-.htmlcss{
-	text-align: justify;
-	margin-top: 5%;
-	font-size: 1.0rem;
-	color:white;
-	font-weight: 500;
+.htmlcss {
+  text-align: justify;
+  margin-top: 5%;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
 }
 
-.programs{
-	text-align: justify;
-	margin-top: 5%;
-	margin-bottom: 5% !important;
-	height: 40vh;
-	font-size: 1.5rem;
-	color:white;
-	font-weight: 500;
+.programs {
+  text-align: justify;
+  margin-top: 5%;
+  margin-bottom: 5% !important;
+  height: 40vh;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
 }
 
-
-.co-authorsR{
-	margin-top: 20px;
-	font-family: "Big Shoulders Text", sans-serif;
-	text-align: right;
+.co-authorsR {
+  margin-top: 20px;
+  font-family: "Big Shoulders Text", sans-serif;
+  text-align: right;
 }
 
-.co-authorsL{
-	margin-top: 20px;
-	font-family: "Big Shoulders Text", sans-serif;
-	text-align: left;
+.co-authorsL {
+  margin-top: 20px;
+  font-family: "Big Shoulders Text", sans-serif;
+  text-align: left;
 }
 
-.Dslides, .Kslides, .Mslides, .Aslides{
-	margin-top: 5%;
+.Dslides,
+.Kslides,
+.Mslides,
+.Aslides,
+.Wslides {
+  margin-top: 5%;
 }
 
-.contacts{
-    top: 50%;
-    right: 10px; 
-    transform: translateY(-50%);
-	color: #fff;
-	font-size: 2rem;
-	z-index: 0;
-	position: absolute;
+.contacts {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 2rem;
+  z-index: 0;
+  position: absolute;
 }
 
-.contacts i:hover, .contacts a:hover, .nav-link:hover{
-	color: #BAA714 !important;
+.contacts i:hover,
+.contacts a:hover,
+.nav-link:hover {
+  color: #baa714 !important;
 }
-
-
-	
-
 
 .custom-toggler .navbar-toggler-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
-  .custom-toggler.navbar-toggler {
-	border-color: rgb(255,255,255);
-  } 
-
-  .navbar.color-changed{
-	background-color:#BAA714 !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-#sticky-footer{
-	background-color:#BAA714 ;
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 1070px){
-	.contacts{
-	  margin-top: 10% !important;
-	  width: 32px;
+.navbar.color-changed {
+  background-color: #baa714 !important;
+}
+
+#sticky-footer {
+  background-color: #baa714;
+}
+
+@media screen and (max-width: 1070px) {
+  .contacts {
+    margin-top: 10% !important;
+    width: 32px;
   }
 }
 
 @media screen and (max-width: 908px) {
-	.navbar-nav {
-	  font-size: 1.2rem;
-	}
+  .navbar-nav {
+    font-size: 1.2rem;
+  }
 
-	.topl{
-		margin-top: 60px;
-	}
+  .topl {
+    margin-top: 60px;
+  }
 
-	.name{
-		font-size: 2.5rem;
-	}
+  .name {
+    font-size: 2.5rem;
+  }
 
-	.welcome{
-		font-size: 3.0rem;
-	}
-	.contacts{
-      font-size: 1.3rem !important;
-	}
+  .welcome {
+    font-size: 3rem;
+  }
+  .contacts {
+    font-size: 1.3rem !important;
+  }
 
-	.ProjMainTitle, .MoreMainTitle, .SkillsMainTitle, .KotlynTitle, .soundsTitle, .featuresTitle, .programingTitle, .programsTitle, .darkDeafTitle, .animationsTitle, .modelsTitle, 
-	.aboutKotlyn, .aboutSounds, .aboutModels, .aboutDarkDeaf, .aboutAnimations, .features, .programs{
-		text-align: center !important;
-	}
+  .ProjMainTitle,
+  .MoreMainTitle,
+  .SkillsMainTitle,
+  .KotlynTitle,
+  .soundsTitle,
+  .featuresTitle,
+  .programingTitle,
+  .programsTitle,
+  .darkDeafTitle,
+  .animationsTitle,
+  .modelsTitle,
+  .aboutKotlyn,
+  .aboutSounds,
+  .aboutModels,
+  .aboutDarkDeaf,
+  .aboutAnimations,
+  .features,
+  .programs {
+    text-align: center !important;
+  }
 }
 
 @media screen and (max-width: 791px) {
-	.navbar-nav {
-	  font-size: 0.9rem;
-	}
+  .navbar-nav {
+    font-size: 0.9rem;
+  }
 
-	.topl{
-		margin-top: 60px;
-		
-	}
+  .topl {
+    margin-top: 60px;
+  }
 
-	
-	.welcome {
-		color: #BAA714;
-		margin-bottom: -10%;
-	}
-	
+  .welcome {
+    color: #baa714;
+    margin-bottom: -10%;
+  }
 
-	.InfoMe{
-		font-size: 1rem !important;
-	}
-	
-	.AboutMe{
-		font-size: 25px !important;
-	}
+  .InfoMe {
+    font-size: 1rem !important;
+  }
 
-	.ProjMainTitle, .MoreMainTitle, .SkillsMainTitle, .KotlynTitle, .soundsTitle, .featuresTitle, .programingTitle, .programsTitle, .darkDeafTitle, .animationsTitle, .modelsTitle{
-		font-size: 2rem !important;
-	}
+  .AboutMe {
+    font-size: 25px !important;
+  }
 
-	.aboutKotlyn, .aboutSounds, .aboutModels, .aboutDarkDeaf, .aboutAnimations, .features, .programs{
-		font-size: 1rem !important;
-	}
+  .ProjMainTitle,
+  .MoreMainTitle,
+  .SkillsMainTitle,
+  .KotlynTitle,
+  .soundsTitle,
+  .featuresTitle,
+  .programingTitle,
+  .programsTitle,
+  .darkDeafTitle,
+  .animationsTitle,
+  .modelsTitle {
+    font-size: 2rem !important;
+  }
+
+  .aboutKotlyn,
+  .aboutSounds,
+  .aboutModels,
+  .aboutDarkDeaf,
+  .aboutAnimations,
+  .features,
+  .programs {
+    font-size: 1rem !important;
+  }
 }
 
 @media screen and (max-width: 736px) {
-    #navbarNav ul li{
-		width:1rem;
-	}
+  #navbarNav ul li {
+    width: 1rem;
+  }
 
-	#navbarNav ul li a{
-		width:1rem;
-		white-space: nowrap; 
-	}
+  #navbarNav ul li a {
+    width: 1rem;
+    white-space: nowrap;
+  }
 }
 
-
-@media screen and (max-width: 575px){
-	.contacts{
-		margin-top: 12% !important;
-	}
+@media screen and (max-width: 575px) {
+  .contacts {
+    margin-top: 12% !important;
+  }
 }
 
-@media screen and (max-width: 452px){
-	.welcome{
-		margin-bottom: -20%;
-	}
-	.name{
-		font-size: 1.7rem;
-	}
+@media screen and (max-width: 452px) {
+  .welcome {
+    margin-bottom: -20%;
+  }
+  .name {
+    font-size: 1.7rem;
+  }
 }
 
-@media screen and (max-width: 400px){
-	
-	.footerText{
-		font-size: 0.6rem;
-	}
+@media screen and (max-width: 400px) {
+  .footerText {
+    font-size: 0.6rem;
+  }
 }
